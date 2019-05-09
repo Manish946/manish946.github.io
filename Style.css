@@ -5,23 +5,19 @@ body{
 .background img{    
     position: relative;
     width: 102%;
-    height: 110vh;
-    top: -40vh;
+    top: -2.4vh;
     display: cover;
     left: -2vh;
     overflow-x: hidden;
     z-index: -1;
-    opacity: 1;
     clear: both;
 }
 .nav-bar{
-    float: right;
-    list-style: none;
-    text-align:right;
+    list-style: none;    
     margin: 2em 11% 0 1em;
     padding: 1vh;    
     display: block;  
-  
+    position: absolute; right: 2vh;
 }
 .nav-bar li{
     justify-content: space-between;
@@ -68,48 +64,29 @@ body{
 #logo a:hover{
     opacity: 0.5;
 }
-
-.text{
-    color: white;
-    clear: both;   
-}
-
-.text p{
-   position: relative;
-   text-align: center;
-   font-size: 25px;
-   top: 10vh;
-}
-.text h1{
-    position: relative;
-    text-align: center;
-   font-size: 70px;
-   width: 28%;
-   font-family: Arial, Helvetica, sans-serif;
-   border: 3px white dashed;
-}
 .text2{   
     padding: 0;
+    clear: both;
 }
-.text2 h1{
-    margin: -5em 3em 4em 3em;
-    font-size: 67px;
+.aboutme{
+    color: black;
+    margin: auto;
     text-align: center;
     font-family: AdventPro;
 }
 .text2 p{
-    margin: -7.5em 4em 1em 4em;
-    font-size: 37px;
-    text-align: center;
-    font-family: AdventPro;
-    font-weight: 500;
-    letter-spacing: 0.1em;
     
+    font-size: 27px;
+    text-align: center;
+    font-family:'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    letter-spacing: 0.04em;
     color: rgb(53, 52, 52);
 }
 .text3{
-    background-color: white;   
+    background-color: rgb(41, 42, 43);   
     padding: 4px;
+    color: white;
     font-family: AdventPro;
 }
 .text3 #top{
@@ -117,55 +94,53 @@ body{
      margin: 0em 5em 0em 4em;
     font-size: 67px;
     
-    color: rgb(51, 49, 49);
-    border: 3px solid black;
-}
-.text3 h1:hover{
-    border-color: pink;
+    color: rgb(255, 255, 255);
+    border: 3px solid rgb(255, 255, 255);
 }
 
+
 .inline{
-    border: 2px solid rgb(0, 255, 200);
-    background-color: rgb(39, 38, 39);
+    border: 2px solid rgb(56, 74, 231);
+    background-color: rgb(255, 255, 255);
     padding: 4px;
-    box-shadow: 0 0 10px #0019fd;
+    box-shadow: 0 0 10px #49bbe9;
 }
 .inline #outline{
-    background: rgb(0, 255, 149);
+    background: rgb(16, 52, 214);
     width: 55%;
     padding: 16px;
     animation: outline 4s;
 }
 
 .inline1{
-    border: 2px solid rgb(0, 255, 200);
-    background-color: rgb(39, 38, 39);
+    border: 2px solid rgb(56, 74, 231);
+    background-color: rgb(255, 255, 255);
     padding: 4px;
-    box-shadow: 0 0 10px #0019fd;
+    box-shadow: 0 0 10px #49bbe9;
 }
 .inline1 #outline1{
-    background: rgb(0, 255, 149);
+    background: rgb(255, 0, 55);
     width: 90%;
     padding: 16px;
     animation: outline1 4s;
 }
 .inline2{
-    border: 2px solid rgb(0, 255, 200);
-    background-color: rgb(39, 38, 39);
+    border: 2px solid rgb(56, 74, 231);
+    background-color: rgb(255, 255, 255);
     padding: 4px;
-    box-shadow: 0 0 10px #0019fd;
+    box-shadow: 0 0 10px #49bbe9;
 }
 .inline2 #outline2{
-    background: rgb(0, 255, 149);
+    background: rgb(255, 94, 0);
     width: 70%;
     padding: 16px;
     animation: outline2 4s;
 }
 .inline3{
-    border: 2px solid rgb(0, 255, 200);
-    background-color: rgb(39, 38, 39);
+    border: 2px solid rgb(56, 74, 231);
+    background-color: rgb(255, 255, 255);
     padding: 4px;
-    box-shadow: 0 0 10px #0019fd;
+    box-shadow: 0 0 10px #49bbe9;
 }
 .inline3 #outline3{
     background: rgb(0, 255, 149);
@@ -236,6 +211,8 @@ font-family: AdventPro;
     border-top: 1px black solid;
     border-bottom: 25px rgb(0, 0, 0) solid;
     position:relative;
+    font-family: AdventPro;
+    font-size: 1.5em;
 }
 
 .footer p {
@@ -250,7 +227,7 @@ font-family: AdventPro;
 }
 @font-face{
     font-family: AdventPro;
-    src: url("AnnieUseYourTelescope-Regular.ttf");
+    src: url("AdventPro-Regular.ttf");
 }
 @font-face{
     font-family: AlluraPro;

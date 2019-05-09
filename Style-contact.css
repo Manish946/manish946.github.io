@@ -4,9 +4,9 @@ body{
 }
 .background img{    
     position: relative;
-    width: 102%;
-    height: 110vh;
-    top: -40vh;
+    width: 102%;    
+    top: -2vh;
+    height: auto;
     display: cover;
     left: -2vh;
     overflow-x: hidden;
